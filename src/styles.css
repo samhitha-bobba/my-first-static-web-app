@@ -6,7 +6,31 @@ html, body {
   margin: 0;
   border: 0;
   padding: 0;
-  background-color: #fff;
+  background-color: white;
+  background-image: url('wallpaperflare_com_wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+/*image{
+  position: absolute;
+  width: 1249px;
+  height: 869px;
+  left: 96px;
+  top: 77px;
+  background-image: url(wallpaperflare_com_wallpaper.jpg);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}*/
+
+.content {
+  width: 15em;
+  border: 1px solid #333;
+  /*box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;*/
 }
 
 main {
